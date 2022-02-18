@@ -1,0 +1,38 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29911.84
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Application", "Application", "{4C74E41D-FE92-49B7-86FE-87F2B81D1427}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Domain", "Domain", "{7FED952C-D759-4230-B317-EE7C403A3EE9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infra.Data", "Infra.Data", "{CF894A8E-6042-491E-A82C-9E194AA3922D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infra.IoC", "Infra.IoC", "{754E9F92-77FF-43F0-8826-AE737A2FD400}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "UI.Mvc", "UI.Mvc", "{ED151FB5-80EE-4EDF-A561-33BED18E3113}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mvc", "Mvc\Mvc.csproj", "{A56DF9CE-0779-4C74-BE6C-88AB2F7DD275}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A56DF9CE-0779-4C74-BE6C-88AB2F7DD275}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A56DF9CE-0779-4C74-BE6C-88AB2F7DD275}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A56DF9CE-0779-4C74-BE6C-88AB2F7DD275}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A56DF9CE-0779-4C74-BE6C-88AB2F7DD275}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{A56DF9CE-0779-4C74-BE6C-88AB2F7DD275} = {ED151FB5-80EE-4EDF-A561-33BED18E3113}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6D354FB6-E7B1-41D2-A0AE-AFC83FE4BA34}
+	EndGlobalSection
+EndGlobal
