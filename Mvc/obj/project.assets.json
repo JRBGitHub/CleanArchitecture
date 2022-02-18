@@ -1425,6 +1425,32 @@
         "runtime": {
           "lib/netstandard1.3/System.Xml.XmlSerializer.dll": {}
         }
+      },
+      "CleanArch.Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "compile": {
+          "bin/placeholder/CleanArch.Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/CleanArch.Domain.dll": {}
+        }
+      },
+      "CleanArch.Infra.Data/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "dependencies": {
+          "CleanArch.Domain": "1.0.0",
+          "Microsoft.AspNetCore.Identity.EntityFrameworkCore": "3.1.2",
+          "Microsoft.EntityFrameworkCore.SqlServer": "3.1.2",
+          "Microsoft.EntityFrameworkCore.Tools": "3.1.2"
+        },
+        "compile": {
+          "bin/placeholder/CleanArch.Infra.Data.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/CleanArch.Infra.Data.dll": {}
+        }
       }
     }
   },
@@ -5335,10 +5361,21 @@
         "system.xml.xmlserializer.4.3.0.nupkg.sha512",
         "system.xml.xmlserializer.nuspec"
       ]
+    },
+    "CleanArch.Domain/1.0.0": {
+      "type": "project",
+      "path": "../CleanArch.Domain/CleanArch.Domain.csproj",
+      "msbuildProject": "../CleanArch.Domain/CleanArch.Domain.csproj"
+    },
+    "CleanArch.Infra.Data/1.0.0": {
+      "type": "project",
+      "path": "../CleanArch.Infra.Data/CleanArch.Infra.Data.csproj",
+      "msbuildProject": "../CleanArch.Infra.Data/CleanArch.Infra.Data.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v3.1": [
+      "CleanArch.Infra.Data >= 1.0.0",
       "Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore >= 3.1.2",
       "Microsoft.AspNetCore.Identity.EntityFrameworkCore >= 3.1.2",
       "Microsoft.AspNetCore.Identity.UI >= 3.1.2",
@@ -5375,7 +5412,11 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\jose.ramon.barraza\\source\\repos\\CleanArchitecture\\CleanArch.Infra.Data\\CleanArch.Infra.Data.csproj": {
+              "projectPath": "C:\\Users\\jose.ramon.barraza\\source\\repos\\CleanArchitecture\\CleanArch.Infra.Data\\CleanArch.Infra.Data.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

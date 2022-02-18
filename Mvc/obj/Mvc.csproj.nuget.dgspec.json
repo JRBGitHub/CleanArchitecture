@@ -4,6 +4,140 @@
     "C:\\Users\\jose.ramon.barraza\\source\\repos\\CleanArchitecture\\Mvc\\Mvc.csproj": {}
   },
   "projects": {
+    "C:\\Users\\jose.ramon.barraza\\source\\repos\\CleanArchitecture\\CleanArch.Domain\\CleanArch.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\jose.ramon.barraza\\source\\repos\\CleanArchitecture\\CleanArch.Domain\\CleanArch.Domain.csproj",
+        "projectName": "CleanArch.Domain",
+        "projectPath": "C:\\Users\\jose.ramon.barraza\\source\\repos\\CleanArchitecture\\CleanArch.Domain\\CleanArch.Domain.csproj",
+        "packagesPath": "C:\\Users\\jose.ramon.barraza\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\jose.ramon.barraza\\source\\repos\\CleanArchitecture\\CleanArch.Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\jose.ramon.barraza\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.200\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\jose.ramon.barraza\\source\\repos\\CleanArchitecture\\CleanArch.Infra.Data\\CleanArch.Infra.Data.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\jose.ramon.barraza\\source\\repos\\CleanArchitecture\\CleanArch.Infra.Data\\CleanArch.Infra.Data.csproj",
+        "projectName": "CleanArch.Infra.Data",
+        "projectPath": "C:\\Users\\jose.ramon.barraza\\source\\repos\\CleanArchitecture\\CleanArch.Infra.Data\\CleanArch.Infra.Data.csproj",
+        "packagesPath": "C:\\Users\\jose.ramon.barraza\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\jose.ramon.barraza\\source\\repos\\CleanArchitecture\\CleanArch.Infra.Data\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\jose.ramon.barraza\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "C:\\Users\\jose.ramon.barraza\\source\\repos\\CleanArchitecture\\CleanArch.Domain\\CleanArch.Domain.csproj": {
+                "projectPath": "C:\\Users\\jose.ramon.barraza\\source\\repos\\CleanArchitecture\\CleanArch.Domain\\CleanArch.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[3.1.2, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.1.2, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[3.1.2, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "target": "Package",
+              "version": "[3.1.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.200\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
     "C:\\Users\\jose.ramon.barraza\\source\\repos\\CleanArchitecture\\Mvc\\Mvc.csproj": {
       "version": "1.0.0",
       "restore": {
@@ -29,7 +163,11 @@
         },
         "frameworks": {
           "netcoreapp3.1": {
-            "projectReferences": {}
+            "projectReferences": {
+              "C:\\Users\\jose.ramon.barraza\\source\\repos\\CleanArchitecture\\CleanArch.Infra.Data\\CleanArch.Infra.Data.csproj": {
+                "projectPath": "C:\\Users\\jose.ramon.barraza\\source\\repos\\CleanArchitecture\\CleanArch.Infra.Data\\CleanArch.Infra.Data.csproj"
+              }
+            }
           }
         },
         "warningProperties": {
