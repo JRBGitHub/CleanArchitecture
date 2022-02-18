@@ -81,3 +81,4 @@ C:\Users\jose.ramon.barraza\source\repos\CleanArchitecture\Mvc\obj\Debug\netcore
 C:\Users\jose.ramon.barraza\source\repos\CleanArchitecture\Mvc\obj\Debug\netcoreapp3.1\Mvc.dll
 C:\Users\jose.ramon.barraza\source\repos\CleanArchitecture\Mvc\obj\Debug\netcoreapp3.1\Mvc.pdb
 C:\Users\jose.ramon.barraza\source\repos\CleanArchitecture\Mvc\obj\Debug\netcoreapp3.1\Mvc.genruntimeconfig.cache
+C:\Users\jose.ramon.barraza\source\repos\CleanArchitecture\Mvc\obj\Debug\netcoreapp3.1\Mvc.csprojAssemblyReference.cache
